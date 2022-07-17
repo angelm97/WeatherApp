@@ -1,0 +1,105 @@
+$size1: 4em;
+$size2: 3.5em;
+$size3: 2em;
+$size4: 2em;
+$size5: 1.5em;
+$size6: 1em;
+
+.bg{
+  background: url('../../assets/videos/Clouds.mp4');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  
+}
+
+
+ion-content{
+  height: 100%; 
+  --ion-font-family:'Edu NSW ACT Foundation', cursive;
+  --background: linear-gradient(#2980B9, #6DD5FA) !important;
+ 
+
+
+  
+  --ion-text-color: white !important;
+}
+
+ion-header{
+  --ion-text-color: #555;
+}
+
+.main{
+  padding-top: 20px;
+  display: block;
+  text-align: center;
+  position: fixed;
+  top: 0%;
+  margin: 0px auto;
+  width: 100%;
+}
+
+.city{
+  display: block;
+  font-size: $size3;
+  font-weight: bold;
+  padding-top: 0.2em;
+}
+
+.date{
+  display: block;
+  font-size: $size5;
+  font-weight: bold;
+}
+
+.description{
+  display: block;
+  font-size: $size3;
+  font-weight: bold;
+}
+
+.temperature{
+  display: block;
+  font-size: $size1;
+  padding: 0px;
+  margin: 0px;
+}
+
+.icon{
+  display: block;
+  font-size: $size4;
+  padding-top: 0px;
+}
+
+ion-grid{
+  text-align: center;
+  position: fixed;
+  bottom: 35%;
+  margin: 0px auto;
+  width: 100%;
+  font-family: sans-serif !important;
+
+}
+
+.day{
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.precipitation{
+  display: block;
+}
+
+.icon-sm{
+  display: block;
+}
+
+.hi-sm{
+  display: block;
+}
+
+.lo-sm{
+  display: block;
+}
